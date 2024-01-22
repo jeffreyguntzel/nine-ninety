@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nine-ninety"
+version = "0.1.0"
+description = "A suite of tools for working with ProPublica's Nonprofit Explorer API"
+authors = ["Jeff Severns Guntzel <95197327+jeffreyguntzel@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^1.3.3"
+requests = "^2.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
